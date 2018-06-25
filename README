@@ -1,0 +1,54 @@
+C:\work\ang5\stdlib\workspace2\rary\functions>lib up dev
+2018/04/14 13:41:47.130 [rary/functions] Uploading... 100.00%
+2018/04/14 13:41:47.457 [rary/functions] Authenticated as "rary" <richardwithlionheart@gmail.com>!
+2018/04/14 13:41:47.458 [rary/functions] Compiling package with environment "dev"...
+2018/04/14 13:41:47.458 [rary/functions] Extracting package contents (size 574)...
+2018/04/14 13:41:47.480 [rary/functions] Installing package dependencies...
+2018/04/14 13:41:48.985 [rary/functions] Preparing compilation package...
+2018/04/14 13:41:49.835 [rary/functions] Uploading compiled package...
+2018/04/14 13:41:50.124 [rary/functions] Registering compiled package...
+2018/04/14 13:41:51.252 [rary/functions] Starting service...
+2018/04/14 13:41:52.763 [rary/functions] Package "rary/functions@dev" now available!
+
+(default function)
+------------------
+url:      https://rary.lib.id/functions@dev/
+code:     lib.rary.functions['@dev']()
+shell:    lib rary.functions[@dev]
+context:  (enabled)
+bg:       info
+
+  A basic Hello World function
+  @param {string} name Who you're saying hello to
+  @returns {string}
+
+
+After lib release
+
+
+
+C:\work\ang5\stdlib\workspace2\rary\functions>lib release
+2018/04/14 13:48:42.020 [rary/functions] Uploading... 100.00%
+2018/04/14 13:48:42.345 [rary/functions] Authenticated as "rary" <richardwithlionheart@gmail.com>!
+2018/04/14 13:48:42.346 [rary/functions] Compiling package for release (0.0.0)...
+2018/04/14 13:48:42.346 [rary/functions] Extracting package contents (size 574)...
+2018/04/14 13:48:42.364 [rary/functions] Installing package dependencies...
+2018/04/14 13:48:42.967 [rary/functions] Uploading compiled package...
+2018/04/14 13:48:43.214 [rary/functions] Registering compiled package...
+2018/04/14 13:48:43.989 [rary/functions] Starting service...
+2018/04/14 13:48:45.368 [rary/functions] Package "rary/functions@0.0.0" now available!
+
+(default function)
+------------------
+url:      https://rary.lib.id/functions@0.0.0/
+code:     lib.rary.functions['@0.0.0']()
+shell:    lib rary.functions[@0.0.0]
+context:  (enabled)
+bg:       info
+
+  A basic Hello World function
+  @param {string} name Who you're saying hello to
+  @returns {string}
+
+Successfully published!
+

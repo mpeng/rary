@@ -1,0 +1,14 @@
+{
+  "name": "alexa-skill-kit-sdk-factskill",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.247.1",
+    "https": "^1.0.0",
+    "lib": "^3.0.2",
+    "lodash": "^4.17.5",
+    "mongoose": "^5.0.11",
+    "number-to-words": "^1.2.3",
+    "superagent": "^3.8.3"
+  }
+}

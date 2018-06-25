@@ -1,0 +1,28 @@
+{
+  "name": "functions",
+  "version": "1.1.5",
+  "description": "",
+  "author": "rary <richardwithlionheart@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "node-fetch": "^2.1.2",
+    "http": "0.0.0",
+    "lodash": "^4.17.5",
+    "mysql": "^2.15.0",
+    "rary_utils": "^1.0.9",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "rary/functions",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
