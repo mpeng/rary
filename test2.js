@@ -1,6 +1,6 @@
 origArray = ["B", "C", "B", "B", "B", "A", "D"]; 
 filterArray = ["D"];
-map = {};
+map = new Map();
 
 for ( i = 0; i < origArray.length; i++ ) {
 	console.log(origArray[i]);
