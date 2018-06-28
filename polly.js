@@ -6,14 +6,14 @@ const Fs = require('fs')
 const Polly = new AWS.Polly({
     signatureVersion: 'v4',
     region: 'us-east-1',
-    accessKeyId: 'AKIAIZ45XG25NAUC2S3Q',
-    secretAccessKey: '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'
+    accessKeyId: 'AKxxxx',
+    secretAccessKey: 'J9xxx+D+sUjvwEqBwQwYP30OE'
 	
 })
 
 const s3 = new AWS.S3({
-	accessKeyId: 'AKIAIZ45XG25NAUC2S3Q',
-   	secretAccessKey: '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'
+	accessKeyId: 'AKxxx',
+   	secretAccessKey: 'J9xxx+D+sUjvwEqBwQwYP30OE'
 });
 
 let pollyparams = {
