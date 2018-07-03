@@ -1,0 +1,149 @@
+Tree
+Chart
+JSON Input
+{
+"response": {
+"name": "iPhone X de 64 GB Color plata",
+"psid": "30001MQAD2LZ/A",
+"bsin": "10AF71325473A7",
+"sku": "MQAD2LZ/A",
+"shortDescription": "iPhone X de 64 GB Color plata",
+"pricingInformation": {
+"originalPriceInfo": {
+"basePrice": "MXN 22088.72",
+"suppliersSalesTax": "MXN 0.00",
+"shippingCost": "MXN 0.00",
+"msrp": "MXN 23499.00",
+"fees": "MXN 0.00"
+},
+"calculatedPriceInfo": [
+{
+"basePrice": "MXN 22088.72",
+"suppliersSalesTax": "MXN 0.00",
+"shippingCost": "MXN 0.00",
+"msrp": "MXN 23499.00",
+"fees": "MXN 0.00",
+"displayPrice": "MXN 22088.72",
+"unpromotedDisplayPrice": "MXN 22088.72",
+"msrpDisplayPrice": "MXN 23499.00",
+"priceType": "SUPPLIER",
+"splitTenderEligibility": {
+"splitTenderEligible": false
+},
+"taxes": "MXN 0.00"
+},
+{
+"basePrice": "PNT 132665",
+"suppliersSalesTax": "PNT 0",
+"shippingCost": "PNT 0",
+"msrp": "PNT 141136",
+"fees": "PNT 0",
+"displayPrice": "PNT 132665",
+"unpromotedDisplayPrice": "PNT 132665",
+"msrpDisplayPrice": "PNT 141135",
+"priceType": "SUPPLIER",
+"splitTenderEligibility": {
+"splitTenderEligible": false
+},
+"taxes": "PNT 0"
+}
+]
+},
+"availabilityInformation": {
+"available": true,
+"onCountdown": false,
+"availabilityStatus": "IN_STOCK",
+"availabilityMessage": "En stock [0]"
+},
+"imageUrls": {
+"thumbnail": "https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone/x/iphone-x-silver-select-2017?wid=1200&hei=1200&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1515602510472",
+"small": "https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone/x/iphone-x-silver-select-2017?wid=1200&hei=1200&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1515602510472",
+"medium": "https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone/x/iphone-x-silver-select-2017?wid=1200&hei=1200&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1515602510472",
+"large": "https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone/x/iphone-x-silver-select-2017?wid=1200&hei=1200&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1515602510472"
+},
+"additionalInfo": {
+"warranty": "La compra de un iPhone incluye 90 días de soporte técnico sin costo adicional. Además, el iPhone, su batería recargable y todos los accesorios están cubiertos por una garantía limitada de hardware contra defectos por año completo desde el día de la compra.",
+"varAnalyticCode": "ELEC",
+"carrier": "nocarrier"
+},
+"upc": "190198457455",
+"manufacturer": "Apple",
+"brand": "apple",
+"inStoreEligible": false,
+"shippingEligible": true,
+"reserveAndPickupEligible": false,
+"hasVariations": false,
+"customizable": false,
+"options": {
+"model": {
+"key": "iPhone X",
+"value": "iPhone X",
+"label": "Modelo"
+},
+"storage": {
+"key": "64gb",
+"value": "64gb",
+"label": "Capacidad"
+},
+"color": {
+"key": "silver",
+"value": "Color plata",
+"label": "Acabado"
+}
+},
+"features": [],
+"variations": [],
+"servicePlans": [],
+"relatedProducts": [],
+"offers": [],
+"categories": [
+{
+"name": "iPhone X",
+"slug": "iphone-iphone-x",
+"depth": 1,
+"ancestors": [
+{
+"name": "iPhone",
+"slug": "iphone",
+"depth": 0,
+"ancestors": []
+}
+]
+}
+],
+"totalReviews": 0,
+"status": "ACTIVE",
+"productType": "MERCHANDISE",
+"merchant": "APPLE",
+"modifiedDatetime": "2018-06-28T18:04:12.297Z",
+"importDatetime": "2018-06-28T18:04:12.297Z",
+"webRedeemable": false,
+"realTimeDatetime": "2018-06-28T18:04:12.297Z",
+"shippingInformation": {
+"deliveryInformation": {
+"source": {
+"country": "MEX",
+"supplier": "apple"
+},
+"destinations": [
+{
+"country": "MEX",
+"method": "DOMESTIC_SHIPPING",
+"originalShippingPriceInfo": {
+"shippingCost": "MXN 0.00",
+"fees": "MXN 0.00"
+},
+"expeditedShippingEligible": false,
+"enabled": true
+}
+]
+}
+},
+"appliedChanges": [],
+"purchasableByAgentsOnly": false,
+"markedUpForAgents": false,
+"belowMinimumAdvertisedPrice": false,
+"isRealTimePrice": false
+}
+}
+
