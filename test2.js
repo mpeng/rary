@@ -9,8 +9,6 @@ for ( i = 0; i < origArray.length; i++ ) {
     }
 
 }
-<<<<<<< HEAD
-=======
 
 
 var fib = function( n ) {
@@ -41,4 +39,3 @@ test = new NumericTest(4);
 console.log( test.showMe() );
 console.log( test.isEven( 4 ) );
 console.log( test.isNegative( -4 ) );
->>>>>>> e09a2901ac6b0cc3977ce96aee83e2a39f54a75e
