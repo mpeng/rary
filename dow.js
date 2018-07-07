@@ -24,22 +24,22 @@ switch( off ) {
 		dow = "Saturday"; 
 		break;
 	case 1: 
-		dow = "Sunday"; 
+		dow = "Friday"; 
 		break;
 	case 2: 
-		dow = "Monday"; 
-		break;
-	case 3: 
-		dow = "Tuesday"; 
-		break;
-	case 4: 
-		dow = "Wednesday"; 
-		break;
-	case 5: 
 		dow = "Thursday"; 
 		break;
+	case 3: 
+		dow = "Wednesday"; 
+		break;
+	case 4: 
+		dow = "Tuesday"; 
+		break;
+	case 5: 
+		dow = "Monday"; 
+		break;
 	case 6: 
-		dow = "Friday"; 
+		dow = "Sunday"; 
 		break;
 	default:
 		break;	
