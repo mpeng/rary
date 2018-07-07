@@ -3,6 +3,9 @@ dd = dateArray[0];
 mm = dateArray[1];
 yy = dateArray[2];
 
+console.log( typeof ( mm ) );
+console.log( typeof ( parseInt(mm) ) );
+
 console.log( dd + ", " + mm  + ", " + yy );
 
 todayDD = 7;
@@ -15,6 +18,48 @@ diffMM = (todayMM - mm) * 30 ;
 diffYY = ( todayYY - yy ) * 365 ;
 
 diffTotal = diffYY + diffMM + diffDD;
+
+console.log( diffTotal );
+console.log( mm );
+
+switch( parseInt(mm) ) {
+	case 1: 
+		diffTotal += 1;
+		break;
+	case 2: 
+		diffTotal -= 2;
+		break;
+	case 3: 
+		diffTotal += 1;
+		break;
+	case 4: 
+		break;
+	case 5: 
+		diffTotal += 1;
+		break;
+	case 6: 
+		break;
+	case 7: 
+		diffTotal += 1;
+		break;
+	case 8: 
+		diffTotal += 1;
+		break;
+	case 9: 
+		break;
+	case 10: 
+		diffTotal += 1;
+		break;
+	case 11: 
+		break;
+	case 12: 
+		diffTotal += 1;
+		break;
+	default:
+		break;	
+}
+
+console.log( diffTotal );
 
 off = diffTotal % 7;
 let dow;
