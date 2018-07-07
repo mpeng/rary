@@ -573,3 +573,15 @@ console.log( rtn );
 
 rtn = myCountWords([], filterArray);
 console.log( rtn );
+
+
+let words = "geeksforgeeks";
+charArray = words.split('');
+console.log( charArray );
+
+wordsMap = new SmartMap();
+for ( i = 0; i < charArray.length; i++ ) {
+	wordsMap.add( charArray[i] );
+}
+
+console.log( wordsMap.sorted() );

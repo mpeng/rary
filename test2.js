@@ -100,3 +100,8 @@ words = "racecar";
 console.log( isPalindrome( words, words.length, words.length ));
 console.log( isPalindrome2( words ));
 
+var a_sentence = "This swan is black";
+
+console.log( a_sentence.split(' ').reverse().join(' '));
+console.log( a_sentence.split('').reverse().join(''));
+
