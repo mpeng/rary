@@ -19,3 +19,12 @@ args = process.argv;
 
 console.log( args.length );
 console.log( args );
+
+arrObj = [1, 2, 3];
+console.log( arrObj[1] );
+
+
+
+jsonObj = {"a": 2, "b": 4, "c":4};
+
+console.log( jsonObj.c );
