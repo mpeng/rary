@@ -6,6 +6,7 @@
     "aws-sdk": "^2.247.1",
     "https": "^1.0.0",
     "lib": "^3.0.2",
+    "line-by-line": "^0.1.6",
     "lodash": "^4.17.5",
     "mongoose": "^5.0.11",
     "number-to-words": "^1.2.3",
